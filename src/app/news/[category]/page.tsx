@@ -18,9 +18,3 @@ async function NewsCategory({ params: { category } }: Props) {
 }
 
 export default NewsCategory;
-
-export async function generateStsticParams() {
-  return categories.map((category) => ({
-    category: category,
-  }));
-}
